@@ -1,5 +1,5 @@
 <?php
-
+Route::get('/', 'ArticleController@index');
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
